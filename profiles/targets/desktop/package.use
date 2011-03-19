@@ -20,3 +20,6 @@ media-video/mplayer -dirac -schroedinger -real -dv -live
 
 #+encode: required by media-video/{ffmpeg,mplayer}
 media-libs/libtheora encode
+
+#+extras: required by net-wireless/bluez
+sys-fs/udev extras

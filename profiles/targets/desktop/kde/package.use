@@ -14,3 +14,6 @@ kde-base/kdeartwork-kscreensaver xscreensaver
 media-sound/amarok embedded
 virtual/mysql embedded
 dev-db/mysql embedded
+
+#-cdr: avoid app-cdr/k3b dependency
+media-plugins/kipi-plugins -cdr

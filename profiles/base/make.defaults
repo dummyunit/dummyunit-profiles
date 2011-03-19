@@ -8,3 +8,5 @@ USE="${USE} fftw gmp lzma samba sqlite -ldap"
 USE="${USE} -mono -java"
 # Administration
 USE="${USE} bash-completion vim-syntax -emacs"
+# Misc
+USE="${USE} -faac"

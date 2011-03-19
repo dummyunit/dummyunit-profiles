@@ -26,3 +26,6 @@ sys-fs/udev extras
 
 #+python: required by media-libs/mesa
 dev-libs/libxml2 python
+
+#-gtk: don't build git-gui to avoid extra dependencies
+dev-vcs/git -gtk

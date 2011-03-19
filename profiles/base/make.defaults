@@ -5,7 +5,7 @@ USE="threads unicode"
 # Libraries
 USE="${USE} fftw gmp lzma samba sqlite -ldap"
 # Bindings
-USE="${USE} -mono -java"
+USE="${USE} -perl -python -mono -java"
 # Administration
 USE="${USE} bash-completion vim-syntax -emacs"
 # Misc

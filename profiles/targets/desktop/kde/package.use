@@ -1,0 +1,10 @@
+#-kde: avoid kde-base/konqueror dependency
+app-arch/p7zip -kde
+
+#+xscreensaver: enable additional screensavers
+kde-base/kdeartwork-kscreensaver xscreensaver
+
+#+embedded: use embedded dev-db/mysql instead of a server
+media-sound/amarok embedded
+virtual/mysql embedded
+dev-db/mysql embedded

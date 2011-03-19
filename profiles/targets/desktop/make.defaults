@@ -1,0 +1,20 @@
+ACCEPT_LICENSE="${ACCEPT_LICENSE} NVIDIA AMD MOTIF"
+
+# Hardware related
+USE="alsa -oss usb"
+# System features
+USE="${USE} acpi consolekit dbus icu policykit udev xml -hal"
+# GUI
+USE="${USE} X xcomposite xcb xv qt3support qt4 gtk cairo opengl sdl fontconfig truetype lcms"
+# User features
+USE="${USE} encode exif fam libnotify spell startup-notification nsplugin"
+# Images
+USE="${USE} jpeg mng png svg tiff gif"
+# Media
+USE="${USE} cdr dvd dvdr cdda cddb"
+# Audio codecs
+USE="${USE} a52 aac dts flac mp3 ogg vorbis speex"
+# Video codecs
+USE="${USE} mp4 mpeg theora vpx x264 xvid"
+# Documents
+USE="${USE} djvu pdf ps chm"

@@ -1,0 +1,5 @@
+#+jpeg,+png,+tiff: image support for printing
+net-print/cups jpeg png tiff
+media-libs/tiff jpeg
+app-text/poppler jpeg png
+media-libs/lcms jpeg tiff

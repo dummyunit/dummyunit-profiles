@@ -1,5 +1,5 @@
 app-admin/keepassx
 app-emulation/wine
-net-libs/xulrunner
-www-client/firefox
+<net-libs/xulrunner-2
+<www-client/firefox-4
 media-fonts/cm-unicode

@@ -17,3 +17,6 @@ dev-db/mysql embedded
 
 #-cdr: avoid app-cdr/k3b dependency
 media-plugins/kipi-plugins -cdr
+
+#-gtk: disable gtk style support in Qt, it is better than disabling Qt support in x11-libs/cairo
+<x11-libs/qt-gui-4.7.1 -gtk

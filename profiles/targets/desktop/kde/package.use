@@ -23,3 +23,6 @@ media-plugins/kipi-plugins -cdr
 
 #-gtk: avoid gnome dependencies
 sys-auth/polkit -gtk
+
+#-gstreamer,+vlc: avoid media-libs/gstreamer dependency
+media-libs/phonon -gstreamer vlc

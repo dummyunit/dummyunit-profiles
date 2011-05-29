@@ -1,0 +1,3 @@
+# Some apps are broken on this
+~app-emulation/wine-1.3.20
+~app-emulation/wine-1.3.21

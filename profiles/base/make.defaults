@@ -4,8 +4,8 @@ ACCEPT_LICENSE="-* @FREE freedist myspell-ru_RU-ALexanderLebedev"
 USE="threads unicode"
 # Libraries
 USE="${USE} fftw gmp lzma samba sqlite -ldap"
-# Bindings
-USE="${USE} -perl -python -mono -java"
+# Bindings/languages
+USE="${USE} -perl -python -mono -java -fortran"
 # Administration
 USE="${USE} bash-completion vim-syntax -emacs"
 # Misc

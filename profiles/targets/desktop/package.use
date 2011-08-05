@@ -33,3 +33,6 @@ dev-libs/libxml2 python
 
 #-gtk: don't build git-gui to avoid extra dependencies
 dev-vcs/git -gtk
+
+#+apng: required by www-client/firefox
+media-libs/libpng apng

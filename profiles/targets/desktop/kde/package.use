@@ -26,3 +26,6 @@ sys-auth/polkit -gtk
 
 #-gstreamer,+vlc: avoid media-libs/gstreamer dependency
 media-libs/phonon -gstreamer vlc
+
+#+extras,+plugins: enable Psi+ patches
+net-im/psi extras plugins

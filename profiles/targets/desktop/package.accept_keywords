@@ -3,3 +3,7 @@ app-emulation/wine
 net-libs/xulrunner
 www-client/firefox
 media-fonts/cm-unicode
+
+# required by www-client/firefox-6
+=dev-libs/nss-3.12.10
+=dev-libs/nspr-4.8.8

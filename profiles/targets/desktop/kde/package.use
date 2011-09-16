@@ -29,3 +29,6 @@ media-libs/phonon -gstreamer vlc
 
 #+extras,+plugins: enable Psi+ patches
 net-im/psi extras plugins
+
+#-gtk: avoid gnome dependencies
+sys-block/gparted -gtk

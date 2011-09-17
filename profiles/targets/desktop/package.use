@@ -36,3 +36,6 @@ dev-vcs/git -gtk
 
 #+apng: required by www-client/firefox
 media-libs/libpng apng
+
+#+nsplugin: override global setting
+www-plugins/gnash nsplugin

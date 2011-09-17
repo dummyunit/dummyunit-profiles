@@ -7,7 +7,7 @@ USE="${USE} acpi consolekit dbus icu policykit udev xml -hal"
 # GUI
 USE="${USE} X xcomposite xcb xv qt3support qt4 gtk cairo opengl sdl fontconfig truetype lcms"
 # User features
-USE="${USE} encode exif fam libnotify spell startup-notification nsplugin"
+USE="${USE} encode exif fam libnotify spell startup-notification -nsplugin"
 # Images
 USE="${USE} jpeg mng png svg tiff gif"
 # Media

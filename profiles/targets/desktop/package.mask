@@ -8,3 +8,4 @@
 ~app-emulation/wine-1.3.27
 ~app-emulation/wine-1.3.28
 ~app-emulation/wine-1.3.29
+~app-emulation/wine-1.3.30

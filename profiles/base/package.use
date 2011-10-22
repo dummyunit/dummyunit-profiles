@@ -10,6 +10,3 @@ app-portage/layman git
 #-threads: enabling threads is not recomended
 dev-lang/tcl -threads
 dev-lang/tk -threads
-
-#-sqlite,+sqlite3: prefer dev-db/sqlite:3
-dev-libs/apr-util -sqlite sqlite3

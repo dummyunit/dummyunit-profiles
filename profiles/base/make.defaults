@@ -1,4 +1,5 @@
 ACCEPT_LICENSE="-* @FREE freedist myspell-ru_RU-ALexanderLebedev"
+FEATURES="-config-protect-if-modified"
 
 # System features
 USE="threads unicode"

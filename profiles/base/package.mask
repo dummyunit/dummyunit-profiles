@@ -1,2 +1,5 @@
 # Unclear license
 media-libs/faac
+
+# Too blurry
+=media-fonts/liberation-fonts-2*

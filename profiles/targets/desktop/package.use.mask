@@ -1,2 +1,0 @@
-# icu support breaks app-emulation/wine compilation
-dev-libs/libxml2 icu

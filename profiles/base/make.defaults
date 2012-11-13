@@ -4,7 +4,7 @@ FEATURES="-config-protect-if-modified"
 # System features
 USE="threads unicode"
 # Libraries
-USE="${USE} fftw gmp lzma samba sqlite -ldap"
+USE="${USE} fftw gmp idn lzma samba sqlite -ldap"
 # Bindings/languages
 USE="${USE} -perl -python -mono -java -fortran"
 # Administration

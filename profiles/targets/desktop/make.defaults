@@ -3,7 +3,7 @@ ACCEPT_LICENSE="${ACCEPT_LICENSE} NVIDIA AMD MOTIF"
 # Hardware related
 USE="alsa -oss usb"
 # System features
-USE="${USE} acpi dbus icu udev xml -hal"
+USE="${USE} acpi dbus icu xml -hal"
 # GUI
 USE="${USE} X xcomposite xcb xv qt3support qt4 gtk cairo opengl sdl fontconfig truetype lcms"
 # User features

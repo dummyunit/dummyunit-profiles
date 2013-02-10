@@ -39,3 +39,5 @@ media-libs/libpng apng
 
 #+nsplugin: override global setting
 www-plugins/gnash nsplugin
+dev-java/icedtea nsplugin
+dev-java/icedtea-web nsplugin

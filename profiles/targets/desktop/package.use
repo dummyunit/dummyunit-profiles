@@ -14,7 +14,6 @@ media-libs/libdvdread css
 
 #+custom-optimization: enable optimizations
 #-system-sqlite: use bundled patched sqlite
-net-libs/xulrunner custom-optimization
 www-client/firefox custom-optimization -system-sqlite
 
 #+minimal: disable twm etc

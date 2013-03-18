@@ -1,2 +1,2 @@
 # Misc
-USE="-gpm"
+USE="-gpm -nsplugin"

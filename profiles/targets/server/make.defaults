@@ -1,2 +1,4 @@
+# System features
+USE="-alsa"
 # Misc
-USE="-gpm -nsplugin"
+USE="${USE} -gpm -nsplugin"

@@ -3,3 +3,6 @@ media-libs/faac
 
 # Too blurry
 =media-fonts/liberation-fonts-2*
+
+# Major performance drop
+=media-video/ffmpeg-1.0.7

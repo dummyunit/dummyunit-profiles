@@ -25,3 +25,6 @@ app-crypt/gnupg -mta
 
 #+minimal: avoid virtual/mailx dependency
 sys-apps/smartmontools minimal
+
+#+python: required by net-fs/samba
+sys-libs/talloc python

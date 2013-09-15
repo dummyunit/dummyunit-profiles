@@ -1,5 +1,6 @@
 # Samuli Suominen <ssuominen@gentoo.org> (19 Dec 2010)
 # Required by udev helpers like udisks and upower
+virtual/udev gudev hwdb keymap
 sys-fs/udev gudev hwdb keymap
 
 #+gecko: enable browser

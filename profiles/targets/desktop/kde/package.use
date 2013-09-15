@@ -27,3 +27,6 @@ net-im/psi extras plugins
 
 #-gtk: avoid gnome dependencies
 sys-block/gparted -gtk
+
+#-gtk2,-gtk3,+qt: prefer Qt interface
+net-analyzer/wireshark qt4 -gtk2 -gtk3

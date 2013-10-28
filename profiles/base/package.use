@@ -28,3 +28,6 @@ sys-apps/smartmontools minimal
 
 #+python: required by net-fs/samba
 sys-libs/talloc python
+
+#-acl: temporary, until net-fs/samba-4 is unmasked
+net-fs/cifs-utils -acl

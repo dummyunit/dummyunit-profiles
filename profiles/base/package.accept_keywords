@@ -1,2 +1,3 @@
 net-fs/smbnetfs
 sys-apps/runlevel-tools
+=media-video/ffmpeg-1.2*

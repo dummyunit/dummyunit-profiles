@@ -13,8 +13,10 @@ app-text/enchant hunspell
 media-libs/libdvdread css
 
 #+custom-optimization: enable optimizations
+#+system-icu,+system-cairo: don't use bundled versions
 #-system-sqlite: use bundled patched sqlite
-www-client/firefox custom-optimization -system-sqlite
+#-system-jpeg: use bundled jpeg-turbo
+www-client/firefox custom-optimization system-icu system-cairo -system-sqlite -system-jpeg
 
 #+minimal: disable twm etc
 x11-apps/xinit minimal

@@ -3,4 +3,3 @@ sys-apps/runlevel-tools
 =sys-kernel/vanilla-sources-3.10*
 sys-kernel/dracut
 net-fs/smbnetfs
-=media-video/ffmpeg-1.2*

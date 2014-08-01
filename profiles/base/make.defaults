@@ -5,7 +5,7 @@ ACCEPT_LICENSE="-* @FREE freedist myspell-ru_RU-ALexanderLebedev"
 FEATURES="-config-protect-if-modified"
 
 # System features
-USE="alsa bash-completion threads udev unicode -oss"
+USE="alsa bash-completion caps threads udev unicode xattr -oss"
 # Libraries/user features
 USE="${USE} cups fftw gmp idn lzma samba sqlite vim-syntax -emacs -ldap -xmp"
 # Bindings/languages

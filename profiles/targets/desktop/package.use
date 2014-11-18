@@ -6,26 +6,14 @@ sys-fs/udev gudev hwdb keymap
 #+gecko: enable browser
 app-emulation/wine gecko
 
-#+hunspell: use better engine
-app-text/enchant hunspell
-
-#+css: support encrypted media
-media-libs/libdvdread css
-
 #+custom-optimization: enable optimizations
 #+system-icu,+system-cairo: don't use bundled versions
 #-system-sqlite: use bundled patched sqlite
 #-system-jpeg: use bundled jpeg-turbo
 www-client/firefox custom-optimization system-icu system-cairo -system-sqlite -system-jpeg
 
-#+minimal: disable twm etc
-x11-apps/xinit minimal
-
 #-dirac,-schroedinger,-real,-dv,-live: disable rare codecs and formats
 media-video/mplayer -dirac -schroedinger -real -dv -live
-
-#+encode: required by media-video/{ffmpeg,mplayer}
-media-libs/libtheora encode
 
 # Jeremy Olexa <darkside@gentoo.org> (07 Oct 2011)
 # Required by mesa, ultimately by xorg-server (every desktop) bug 385843

@@ -1,1 +1,1 @@
-USE="kde -gnome -semantic-desktop"
+USE="kde -gnome -nepomuk -kdepim"

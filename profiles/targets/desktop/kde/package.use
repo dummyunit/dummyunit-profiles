@@ -21,3 +21,6 @@ sys-block/gparted -gtk
 
 #-gtk2,-gtk3,+qt: prefer Qt interface
 net-analyzer/wireshark qt4 -gtk2 -gtk3
+
+#-crash-reporter: avoid kdepim dependencies
+kde-base/kdebase-runtime-meta -crash-reporter

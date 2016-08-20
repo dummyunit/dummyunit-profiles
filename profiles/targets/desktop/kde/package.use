@@ -24,3 +24,6 @@ net-analyzer/wireshark qt4 -gtk2 -gtk3
 
 #-crash-reporter: avoid kdepim dependencies
 kde-base/kdebase-runtime-meta -crash-reporter
+
+#-crash-reporter,+minimal: avoid KDE 5
+kde-base/kdebase-startkde -crash-reporter minimal

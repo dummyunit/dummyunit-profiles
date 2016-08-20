@@ -10,10 +10,13 @@ sys-fs/udev gudev hwdb keymap
 app-emulation/wine gecko mono -run-exes -prelink
 
 #+custom-optimization: enable optimizations
-#+system-icu,+system-cairo,+system-libvpx: don't use bundled versions
+#-gstreamer,+ffmpeg: avoid media-libs/gstreamer dependency
+#+system-harfbuzz,+system-icu,+system-libevent,+system-libvpx: don't use bundled versions
 #-system-sqlite: use bundled patched sqlite
 #-system-jpeg: use bundled jpeg-turbo
-www-client/firefox custom-optimization system-icu system-cairo system-libvpx -system-sqlite -system-jpeg
+#-wifi: avoid net-misc/networkmanager dependency
+www-client/firefox custom-optimization -gstreamer ffmpeg system-harfbuzz system-icu -system-jpeg system-libevent system-libvpx -system-sqlite -wifi
+mail-client/thunderbird custom-optimization -gstreamer ffmpeg system-harfbuzz system-icu -system-jpeg system-libevent system-libvpx -system-sqlite
 
 #-dirac,-schroedinger,-real,-dv,-live: disable rare codecs and formats
 media-video/mplayer -dirac -schroedinger -real -dv -live

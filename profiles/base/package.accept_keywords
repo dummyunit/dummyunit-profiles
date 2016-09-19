@@ -1,6 +1,6 @@
 =app-misc/dummy-scripts-9999 **
 sys-apps/runlevel-tools
-=sys-kernel/vanilla-sources-3.10*
+=sys-kernel/vanilla-sources-4.4*
 sys-kernel/dracut
 net-fs/smbnetfs
 ~app-portage/layman-2.2.0

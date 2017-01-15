@@ -7,10 +7,6 @@ app-portage/eix optimization strong-optimization
 #+git: required for most overlays (including this)
 app-portage/layman git
 
-#-threads: enabling threads is not recomended
-dev-lang/tcl -threads
-dev-lang/tk -threads
-
 #-thin: disable unwanted feature
 sys-fs/lvm2 -thin
 

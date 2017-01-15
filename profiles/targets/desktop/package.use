@@ -1,13 +1,6 @@
-# Samuli Suominen <ssuominen@gentoo.org> (19 Dec 2010)
-# Required by udev helpers like udisks and upower
-virtual/udev gudev hwdb keymap
-sys-fs/udev gudev hwdb keymap
-
-#+gecko: enable browser
-#+mono: support .NET applications
 #-run-exes: less convenient, more secure
 #-prelink: don't pull sys-devel/prelink to avoid system-wide auto prelinking
-app-emulation/wine gecko mono -run-exes -prelink
+app-emulation/wine -run-exes -prelink
 
 #+custom-optimization: enable optimizations
 #-gstreamer,+ffmpeg: avoid media-libs/gstreamer dependency
@@ -18,12 +11,8 @@ app-emulation/wine gecko mono -run-exes -prelink
 www-client/firefox custom-optimization -gstreamer ffmpeg system-harfbuzz system-icu -system-jpeg system-libevent system-libvpx -system-sqlite -wifi
 mail-client/thunderbird custom-optimization -gstreamer ffmpeg system-harfbuzz system-icu -system-jpeg system-libevent system-libvpx -system-sqlite
 
-#-dirac,-schroedinger,-real,-dv,-live: disable rare codecs and formats
-media-video/mplayer -dirac -schroedinger -real -dv -live
-
-# Jeremy Olexa <darkside@gentoo.org> (07 Oct 2011)
-# Required by mesa, ultimately by xorg-server (every desktop) bug 385843
-dev-libs/libxml2 python
+#-dv,-live: disable rare codecs and formats
+media-video/mplayer -dv -live
 
 #-gtk: don't build git-gui to avoid extra dependencies
 dev-vcs/git -gtk

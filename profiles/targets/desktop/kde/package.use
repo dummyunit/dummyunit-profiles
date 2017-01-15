@@ -4,16 +4,14 @@ app-arch/p7zip -kde
 #+xscreensaver: enable additional screensavers
 kde-base/kdeartwork-kscreensaver xscreensaver
 
-#+embedded: use embedded dev-db/mysql instead of a server
-media-sound/amarok embedded
+#+embedded: enable embedded dev-db/mysql to use with media-sound/amarok
 virtual/mysql embedded
 dev-db/mysql embedded
 
 #-cdr: avoid app-cdr/k3b dependency
 media-plugins/kipi-plugins -cdr
 
-#-gstreamer,+vlc: avoid media-libs/gstreamer dependency
-media-libs/phonon -gstreamer vlc
+#-gstreamer: avoid media-libs/gstreamer dependency
 dev-qt/qtwebkit -gstreamer
 
 #-gtk: avoid gnome dependencies

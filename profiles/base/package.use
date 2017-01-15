@@ -20,9 +20,6 @@ net-ftp/lftp -gnutls openssl
 #-sendmail: avoid virtual/mta dependency
 app-admin/sudo -sendmail
 
-#-mta: avoid virtual/mta dependency
-app-crypt/gnupg -mta
-
 #+minimal: avoid virtual/mailx dependency
 sys-apps/smartmontools minimal
 

@@ -20,7 +20,13 @@ app-admin/sudo -sendmail
 sys-apps/smartmontools minimal
 
 #+python: required by net-fs/samba
+sys-libs/ntdb python
 sys-libs/talloc python
+sys-libs/tdb python
+sys-libs/tevent python
 
-#-acl,-ads: temporary, until net-fs/samba-4 is unmasked
-net-fs/cifs-utils -acl -ads
+#-libev,+tevent: use sys-libs/tevent because net-fs/samba already requires it
+dev-libs/libverto -libev tevent
+
+#-ads: disable unwanted feature
+net-fs/samba -ads

@@ -25,3 +25,6 @@ media-libs/libpng apng
 www-plugins/gnash nsplugin
 dev-java/icedtea nsplugin
 dev-java/icedtea-web nsplugin
+
+#+winbind: required by app-emulation/wine
+net-fs/samba winbind

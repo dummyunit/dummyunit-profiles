@@ -30,3 +30,6 @@ dev-libs/libverto -libev tevent
 
 #-ads: disable unwanted feature
 net-fs/samba -ads
+
+#-cleartype_hinting: avoid making text bold and hazed
+media-libs/freetype -cleartype_hinting

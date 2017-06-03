@@ -20,6 +20,7 @@ app-admin/sudo -sendmail
 sys-apps/smartmontools minimal
 
 #+python: required by net-fs/samba
+sys-libs/ldb python
 sys-libs/ntdb python
 sys-libs/talloc python
 sys-libs/tdb python

@@ -1,5 +1,8 @@
 #+jpeg,+png,+tiff: image support for printing
-net-print/cups-filters jpeg png tiff
+net-print/cups-filters jpeg png tiff pdf
 media-libs/tiff jpeg
 app-text/poppler jpeg png tiff
 media-libs/lcms jpeg tiff
+
+#-cairo: don't pull (indirectly) X libraries
+media-libs/harfbuzz -cairo

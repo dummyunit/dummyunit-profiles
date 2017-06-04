@@ -13,7 +13,7 @@ USE="${USE} jpeg mng png svg tiff gif"
 # Media
 USE="${USE} libsamplerate cdr dvd dvdr cdda cddb"
 # Audio codecs
-USE="${USE} a52 aac amr dts flac mp3 ogg vorbis speex"
+USE="${USE} a52 aac amr dts flac mp3 ogg opus vorbis speex"
 # Video codecs
 USE="${USE} matroska mp4 mpeg theora vpx x264 xvid"
 # Documents

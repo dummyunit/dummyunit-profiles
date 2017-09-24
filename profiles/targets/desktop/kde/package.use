@@ -11,17 +11,14 @@ dev-db/mysql embedded
 #-cdr: avoid app-cdr/k3b dependency
 media-plugins/kipi-plugins -cdr
 
-#-gstreamer: avoid media-libs/gstreamer dependency
-dev-qt/qtwebkit -gstreamer
-
 #-gtk: avoid gnome dependencies
 sys-block/gparted -gtk
-
-#-gtk2,-gtk3,+qt: prefer Qt interface
-net-analyzer/wireshark qt4 -gtk2 -gtk3
 
 #-crash-reporter: avoid kdepim dependencies
 kde-base/kdebase-runtime-meta -crash-reporter
 
 #-crash-reporter,+minimal: avoid KDE 5
 kde-base/kdebase-startkde -crash-reporter minimal
+
+#-qt5: don't break KDE 4
+media-libs/qimageblitz -qt5

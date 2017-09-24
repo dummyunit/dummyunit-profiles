@@ -28,3 +28,13 @@ dev-java/icedtea-web nsplugin
 
 #+winbind: required by app-emulation/wine
 net-fs/samba winbind
+
+#+pcre16: required by dev-qt/qtcore:5
+dev-libs/libpcre pcre16
+
+#-gtk,+qt5: prefer Qt interface
+net-analyzer/wireshark -gtk qt5
+
+#-qt4: prefer Qt5 over Qt4
+app-crypt/pinentry -qt4
+media-video/vlc -qt4

@@ -1,6 +1,6 @@
 #-run-exes: less convenient, more secure
 #-prelink: don't pull sys-devel/prelink to avoid system-wide auto prelinking
-app-emulation/wine -run-exes -prelink
+app-emulation/wine-vanilla -run-exes -prelink
 
 #+custom-optimization: enable optimizations
 #-gstreamer,+ffmpeg: avoid media-libs/gstreamer dependency
@@ -26,7 +26,7 @@ www-plugins/gnash nsplugin
 dev-java/icedtea nsplugin
 dev-java/icedtea-web nsplugin
 
-#+winbind: required by app-emulation/wine
+#+winbind: required by app-emulation/wine-*
 net-fs/samba winbind
 
 #+pcre16: required by dev-qt/qtcore:5

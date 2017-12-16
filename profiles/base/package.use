@@ -1,9 +1,6 @@
 #+graphite: enable advanced loop optimizations
 sys-devel/gcc graphite
 
-#+optimizations,+strong-optimizations: enable optimizations
-app-portage/eix optimization strong-optimization
-
 #+git: required for most overlays (including this)
 app-portage/layman git
 

@@ -4,4 +4,3 @@ sys-apps/runlevel-tools
 =sys-kernel/vanilla-sources-4.4*
 sys-kernel/dracut
 net-fs/smbnetfs
-~app-portage/layman-2.2.0

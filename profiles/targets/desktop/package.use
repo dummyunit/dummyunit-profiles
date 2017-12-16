@@ -11,9 +11,6 @@ app-emulation/wine-vanilla -run-exes -prelink
 www-client/firefox custom-optimization -gstreamer ffmpeg system-harfbuzz system-icu -system-jpeg system-libevent system-libvpx -system-sqlite -wifi
 mail-client/thunderbird custom-optimization -gstreamer ffmpeg system-harfbuzz system-icu -system-jpeg system-libevent system-libvpx -system-sqlite
 
-#-dv,-live: disable rare codecs and formats
-media-video/mplayer -dv -live
-
 #-gtk: don't build git-gui to avoid extra dependencies
 dev-vcs/git -gtk
 

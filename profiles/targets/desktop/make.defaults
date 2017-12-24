@@ -9,7 +9,7 @@ USE="${USE} X xcomposite xcb xv qt3support qt4 qt5 gtk cairo opengl sdl fontconf
 # User features
 USE="${USE} encode exif libnotify spell startup-notification xscreensaver -nsplugin"
 # Images
-USE="${USE} jpeg mng png svg tiff gif"
+USE="${USE} jpeg mng png svg tiff gif webp"
 # Media
 USE="${USE} libsamplerate cdr dvd dvdr cdda cddb"
 # Audio codecs

@@ -13,8 +13,9 @@ net-ftp/lftp -gnutls openssl
 #-sendmail: avoid virtual/mta dependency
 app-admin/sudo -sendmail
 
-#+minimal: avoid virtual/mailx dependency
-sys-apps/smartmontools minimal
+#-daemon: avoid virtual/mailx dependency
+#-caps: satisfy REQUIRED_USE
+sys-apps/smartmontools -daemon -caps
 
 #+python: required by net-fs/samba
 sys-libs/ldb python

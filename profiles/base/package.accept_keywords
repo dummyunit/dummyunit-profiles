@@ -2,5 +2,4 @@
 =media-fonts/liberation-fonts-1*
 sys-apps/runlevel-tools
 =sys-kernel/vanilla-sources-4.4*
-sys-kernel/dracut
 net-fs/smbnetfs

@@ -27,7 +27,7 @@ dev-java/icedtea-web nsplugin
 net-fs/samba winbind
 
 #+pcre16: required by dev-qt/qtcore:5
-dev-libs/libpcre pcre16
+dev-libs/libpcre2 pcre16
 
 #-gtk,+qt5: prefer Qt interface
 net-analyzer/wireshark -gtk qt5

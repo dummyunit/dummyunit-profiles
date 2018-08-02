@@ -39,3 +39,6 @@ app-text/xmlto text
 
 #-gtk,+gtk2: avoid gnome-base/dconf
 app-office/libreoffice -gtk gtk2
+
+#+nss: required by app-office/libreoffice
+dev-libs/xmlsec nss

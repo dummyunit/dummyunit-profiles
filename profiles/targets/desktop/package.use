@@ -35,9 +35,5 @@ dev-libs/libpcre2 pcre16
 #-gtk,+qt5: prefer Qt interface
 net-analyzer/wireshark -gtk qt5
 
-#-qt4: prefer Qt5 over Qt4
-app-crypt/pinentry -qt4
-media-video/vlc -qt4
-
 #+text: required by x11-misc/xdg-utils, which is required by many applications
 app-text/xmlto text

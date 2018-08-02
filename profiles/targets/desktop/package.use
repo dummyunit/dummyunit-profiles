@@ -37,3 +37,6 @@ net-analyzer/wireshark -gtk qt5
 
 #+text: required by x11-misc/xdg-utils, which is required by many applications
 app-text/xmlto text
+
+#-gtk,+gtk2: avoid gnome-base/dconf
+app-office/libreoffice -gtk gtk2

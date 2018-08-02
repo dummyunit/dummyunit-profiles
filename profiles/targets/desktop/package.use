@@ -1,5 +1,8 @@
 #-run-exes: less convenient, more secure
 #-prelink: don't pull sys-devel/prelink to avoid system-wide auto prelinking
+app-emulation/wine-any -run-exes -prelink
+app-emulation/wine-d3d9 -run-exes -prelink
+app-emulation/wine-staging -run-exes -prelink
 app-emulation/wine-vanilla -run-exes -prelink
 
 #+custom-optimization: enable optimizations

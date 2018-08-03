@@ -42,3 +42,6 @@ app-office/libreoffice -gtk gtk2
 
 #+nss: required by app-office/libreoffice
 dev-libs/xmlsec nss
+
+#+xkb: required by x11-libs/libxkbcommon[X], dev-qt/qtgui:5[xcb]
+x11-libs/libxcb xkb

@@ -45,3 +45,6 @@ dev-libs/xmlsec nss
 
 #+xkb: required by x11-libs/libxkbcommon[X], dev-qt/qtgui:5[xcb]
 x11-libs/libxcb xkb
+
+#+postproc: required by www-client/firefox[system-libvpx]
+media-libs/libvpx postproc

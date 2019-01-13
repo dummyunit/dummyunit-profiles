@@ -25,3 +25,6 @@ net-fs/samba -ads
 
 #-cleartype_hinting: avoid making text bold and hazed
 media-libs/freetype -cleartype_hinting
+
+#-smartcard: disable unwanted feature
+app-crypt/gnupg -smartcard

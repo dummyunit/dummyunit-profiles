@@ -49,3 +49,6 @@ x11-libs/libxcb xkb
 
 #+postproc: required by www-client/firefox[system-libvpx]
 media-libs/libvpx postproc
+
+#+minizip: required by many packages (dev-qt/qtwebengine:5 media-video/vlc net-im/psi)
+sys-libs/zlib minizip

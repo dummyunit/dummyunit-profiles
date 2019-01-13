@@ -17,13 +17,6 @@ app-admin/sudo -sendmail
 #-caps: satisfy REQUIRED_USE
 sys-apps/smartmontools -daemon -caps
 
-#+python: required by net-fs/samba
-sys-libs/ldb python
-sys-libs/ntdb python
-sys-libs/talloc python
-sys-libs/tdb python
-sys-libs/tevent python
-
 #-libev,+tevent: use sys-libs/tevent because net-fs/samba already requires it
 dev-libs/libverto -libev tevent
 

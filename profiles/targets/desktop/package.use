@@ -5,12 +5,11 @@ app-emulation/wine-d3d9 -run-exes -prelink
 app-emulation/wine-staging -run-exes -prelink
 app-emulation/wine-vanilla -run-exes -prelink
 
-#-gstreamer,+ffmpeg: avoid media-libs/gstreamer dependency
 #+system-harfbuzz,+system-icu,+system-jpeg,+system-libevent,+system-libvpx: don't use bundled versions
 #-system-sqlite: use bundled patched sqlite
 #-wifi: avoid net-misc/networkmanager dependency
-www-client/firefox -gstreamer ffmpeg system-harfbuzz system-icu system-jpeg system-libevent system-libvpx -system-sqlite -wifi
-mail-client/thunderbird -gstreamer ffmpeg system-harfbuzz system-icu system-jpeg system-libevent system-libvpx -system-sqlite
+www-client/firefox system-harfbuzz system-icu system-jpeg system-libevent system-libvpx -system-sqlite -wifi
+mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libevent system-libvpx -system-sqlite
 
 #-gtk: don't build git-gui to avoid extra dependencies
 dev-vcs/git -gtk
@@ -29,9 +28,6 @@ net-fs/samba winbind
 
 #+pcre16: required by dev-qt/qtcore:5
 dev-libs/libpcre2 pcre16
-
-#-gtk,+qt5: prefer Qt interface
-net-analyzer/wireshark -gtk qt5
 
 #+text: required by x11-misc/xdg-utils, which is required by many applications
 app-text/xmlto text

@@ -6,12 +6,11 @@ app-emulation/wine-staging -run-exes -prelink
 app-emulation/wine-vanilla -run-exes -prelink
 
 #-gstreamer,+ffmpeg: avoid media-libs/gstreamer dependency
-#+system-harfbuzz,+system-icu,+system-libevent,+system-libvpx: don't use bundled versions
+#+system-harfbuzz,+system-icu,+system-jpeg,+system-libevent,+system-libvpx: don't use bundled versions
 #-system-sqlite: use bundled patched sqlite
-#-system-jpeg: use bundled jpeg-turbo
 #-wifi: avoid net-misc/networkmanager dependency
-www-client/firefox -gstreamer ffmpeg system-harfbuzz system-icu -system-jpeg system-libevent system-libvpx -system-sqlite -wifi
-mail-client/thunderbird -gstreamer ffmpeg system-harfbuzz system-icu -system-jpeg system-libevent system-libvpx -system-sqlite
+www-client/firefox -gstreamer ffmpeg system-harfbuzz system-icu system-jpeg system-libevent system-libvpx -system-sqlite -wifi
+mail-client/thunderbird -gstreamer ffmpeg system-harfbuzz system-icu system-jpeg system-libevent system-libvpx -system-sqlite
 
 #-gtk: don't build git-gui to avoid extra dependencies
 dev-vcs/git -gtk

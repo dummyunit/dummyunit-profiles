@@ -55,3 +55,6 @@ sys-libs/zlib minizip
 
 #-dbus: avoid gnome-base/dconf
 dev-libs/glib -dbus
+
+#-npm: avoid bloat, not required for www-client/firefox
+net-libs/nodejs -npm

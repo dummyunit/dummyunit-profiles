@@ -28,3 +28,6 @@ media-libs/freetype -cleartype_hinting
 
 #-smartcard: disable unwanted feature
 app-crypt/gnupg -smartcard
+
+#-qmanifest: disable unwanted feature
+app-portage/portage-utils -qmanifest

@@ -53,3 +53,6 @@ dev-libs/glib -dbus
 
 #-npm: avoid bloat, not required for www-client/firefox
 net-libs/nodejs -npm
+
+#-network: avoid possibility of data leaks at the cost of not fetching favicons
+app-admin/keepassxc -network

@@ -7,7 +7,7 @@ FEATURES="-config-protect-if-modified"
 # System features
 USE="alsa bash-completion caps threads udev unicode xattr -oss"
 # Libraries/user features
-USE="${USE} cups fftw gmp idn lzma samba sqlite vim-syntax -emacs -ldap -libav -xmp"
+USE="${USE} cups fftw gmp idn lzma samba sqlite vim-syntax -emacs -ldap -libav -xmp -zeroconf"
 # Bindings/languages
 USE="${USE} -perl -python -mono -java -fortran -vala -introspection"
 # Disable bloatware

@@ -31,3 +31,6 @@ app-portage/portage-utils -qmanifest
 
 #+system-llvm: don't use bundled version
 dev-lang/rust system-llvm
+
+#-libproxy: disable unwanted feature
+net-libs/glib-networking -libproxy

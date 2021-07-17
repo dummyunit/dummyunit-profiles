@@ -1,0 +1,2 @@
+#-system-llvm: doesn't cause any (visible) problems
+dev-lang/rust -system-llvm

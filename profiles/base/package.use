@@ -28,3 +28,6 @@ app-crypt/gnupg -smartcard
 
 #-qmanifest: disable unwanted feature
 app-portage/portage-utils -qmanifest
+
+#+system-llvm: don't use bundled version
+dev-lang/rust system-llvm

@@ -5,7 +5,7 @@ USE="alsa -oss usb"
 # System features
 USE="${USE} acpi dbus icu xml"
 # GUI
-USE="${USE} X xcomposite xcb xv qt3support qt4 qt5 gtk cairo opengl sdl fontconfig truetype lcms"
+USE="${USE} X xcomposite xcb xv qt5 gtk cairo opengl sdl fontconfig truetype lcms"
 # User features
 USE="${USE} encode exif libnotify spell startup-notification xscreensaver -nsplugin"
 # Images

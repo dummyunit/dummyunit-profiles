@@ -4,8 +4,8 @@ app-portage/layman git
 #-thin: disable unwanted feature
 sys-fs/lvm2 -thin
 
-#-gnutls,+openssl: avoid net-libs/gnutls dependency
-net-ftp/lftp -gnutls openssl
+#-gnutls: avoid net-libs/gnutls dependency
+net-ftp/lftp -gnutls
 
 #-sendmail: avoid virtual/mta dependency
 app-admin/sudo -sendmail

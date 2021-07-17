@@ -11,9 +11,6 @@ app-emulation/wine-vanilla -run-exes -prelink
 www-client/firefox system-harfbuzz system-icu system-jpeg system-libevent system-libvpx -system-sqlite -wifi
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libevent system-libvpx -system-sqlite
 
-#-gtk: don't build git-gui to avoid extra dependencies
-dev-vcs/git -gtk
-
 # Samuli Suominen <ssuominen@gentoo.org> (27 Sep 2011)
 # Required by mozilla browsers wrt #372419
 media-libs/libpng apng
@@ -33,8 +30,7 @@ dev-libs/libpcre2 pcre16
 app-text/xmlto text
 
 #-gtk,-kde: avoid gnome-base/dconf
-#+gtk2: use instead of GTK+3
-app-office/libreoffice -gtk gtk2 -kde
+app-office/libreoffice -gtk -kde
 
 #+nss: required by app-office/libreoffice
 dev-libs/xmlsec nss

@@ -1,6 +1,3 @@
-#+graphite: enable advanced loop optimizations
-sys-devel/gcc graphite
-
 #+git: required for most overlays (including this)
 app-portage/layman git
 

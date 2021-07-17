@@ -1,6 +1,3 @@
-DISTDIR="/var/cache/gentoo/distfiles"
-PKGDIR="/var/cache/gentoo/packages"
-
 ACCEPT_LICENSE="-* @FREE linux-firmware myspell-ru_RU-AlexanderLebedev"
 FEATURES="-config-protect-if-modified"
 

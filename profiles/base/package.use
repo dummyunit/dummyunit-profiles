@@ -14,8 +14,8 @@ app-admin/sudo -sendmail
 #-caps: satisfy REQUIRED_USE
 sys-apps/smartmontools -daemon -caps
 
-#-libev,+tevent: use sys-libs/tevent because net-fs/samba already requires it
-dev-libs/libverto -libev tevent
+#-libev,+libevent: use dev-libs/libevent because it is more likely to be already installed
+dev-libs/libverto -libev libevent
 
 #-ads: disable unwanted feature
 net-fs/samba -ads

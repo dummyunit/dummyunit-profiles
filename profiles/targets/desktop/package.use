@@ -56,3 +56,6 @@ net-libs/nodejs -npm
 
 #-network: avoid possibility of data leaks at the cost of not fetching favicons
 app-admin/keepassxc -network
+
+#+harfbuzz: required by x11-libs/pango
+media-libs/freetype harfbuzz

@@ -20,8 +20,8 @@ dev-libs/libverto -libev libevent
 #-ads: disable unwanted feature
 net-fs/samba -ads
 
-#-cleartype_hinting: avoid making text bold and hazed
-media-libs/freetype -cleartype_hinting
+#-cleartype-hinting: avoid making text bold and hazed
+media-libs/freetype -cleartype-hinting
 
 #-smartcard: disable unwanted feature
 app-crypt/gnupg -smartcard

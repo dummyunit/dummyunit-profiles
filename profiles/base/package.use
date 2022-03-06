@@ -34,3 +34,6 @@ dev-lang/rust system-llvm
 
 #-libproxy: disable unwanted feature
 net-libs/glib-networking -libproxy
+
+#+lto: this should speed up Portage a bit
+dev-lang/python lto

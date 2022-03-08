@@ -37,3 +37,11 @@ net-libs/glib-networking -libproxy
 
 #+lto: this should speed up Portage a bit
 dev-lang/python lto
+
+#+static: BusyBox is used as a recovery tool, statically linked binaries are preferable in that situation
+#-pam: incompatible with +static
+sys-apps/busybox static -pam
+
+#+static-libs: required by sys-apps/busybox[static]
+sys-libs/libxcrypt static-libs
+virtual/libcrypt static-libs

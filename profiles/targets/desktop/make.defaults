@@ -3,7 +3,7 @@ ACCEPT_LICENSE="${ACCEPT_LICENSE} NVIDIA-r1 AMD"
 # Hardware related
 USE="alsa -oss usb"
 # System features
-USE="${USE} acpi dbus icu xml"
+USE="${USE} acpi dbus dri icu xml"
 # GUI
 USE="${USE} X xcomposite xcb xv qt5 gtk cairo opengl sdl fontconfig truetype lcms"
 # User features

@@ -1,8 +1,9 @@
 #+git: required for most overlays (including this)
 app-portage/layman git
 
+#+lvm: enable LVM itself
 #-thin: disable unwanted feature
-sys-fs/lvm2 -thin
+sys-fs/lvm2 lvm -thin
 
 #-gnutls: avoid net-libs/gnutls dependency
 net-ftp/lftp -gnutls
